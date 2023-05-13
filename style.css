@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+* {
+    box-sizing: border-box;
+    border: none;
+    list-style: none
+}
+
+html{
+    width: 100vw;
+    height: 100vh;
+    font-size: 62.5%;
+    font-family: 'Cinzel', serif;
+    overflow-x: hidden;
+    scroll-behavior: smooth;  
+}
+
+/*Menu*/
+
+.content{
+    width: 100vw;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    padding-left: 30rem;
+    text-decoration: none;
+
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    display: contents;
+    justify-content: space-around;
+}
+
+.logo h1{
+    color: #ffc506;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo h3{
+    color: white;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 150;
+    display: flex;
+    justify-content: center;
+}
+
+.content .list-menu{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content .list-menu li a {
+padding-top: 2rem;
+padding-bottom: 2rem;
+padding-right: 1rem;
+padding-left: 1rem;
+color: white;
+text-decoration: none;
+font-size: 20px;
+text-transform: uppercase;
+font-weight: 300;
+}
+
+.content .list-menu li :hover{
+    background-color: rgb(0, 0, 0);
+    border-bottom: 3px solid #ffc506;
+    color: #ffc506;
+    transition: all 100ms;
+}
+
+/*primeira sessão*/
+
+.first-section{
+    height: 100vh;
+    background-image: linear-gradient(rgba(13, 13, 13, 0.8),rgba(13, 13, 13, 0.8)),url(./img/backgound.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 50px; 
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.first-section .texto-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-section h1{
+    color: #ffc506;
+    font-size: 60px;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.first-section h3{
+    color: white;
+    font-size: 35px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+/*segunda sessão: Sushi*/
+
+.second-section {
+    height: 150vh;
+    background-image: linear-gradient(rgba(13, 13, 13, 0.8),rgba(13, 13, 13, 0.8)),url(./img/img1.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 50px; 
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;   
+}
+
+.second-section h1{
+    color: #ffc506;
+    font-size: 70px;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.second-section h3{
+    color: #ffc506;
+    display: contents;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.second-section h5{
+    color: #ffc506;
+    font-size: 17px;
+}
+
+.second-section h4{
+    color: white;
+}
+
+.second-section h2{
+    color:#ffc506;
+}
+
+.second-section li{
+    color: white;
+    font-size: 12px;
+
+}
+
+/*terceira sessão: Rolinho Primavera*/
+
+.third-section {
+    height: 150vh;
+    background-image: linear-gradient(rgba(13, 13, 13, 0.8),rgba(13, 13, 13, 0.8)),url(./img/img2.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 50px; 
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.third-section h1{
+    color: #ffc506;
+    font-size: 70px;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.third-section h4{
+    color:  white;
+}
+
+.third-section h5{
+    color: #ffc506;
+    font-size: 17px;
+}
+
+.third-section h3{
+    color: #ffc506;
+    display: contents;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-section li{
+    color: white;
+    font-size: 12px;
+}
+
+/*quarta sessão: Hot Roll*/
+
+.fourth-section {
+    height: 170vh;
+    background-image: linear-gradient(rgba(13, 13, 13, 0.8),rgba(13, 13, 13, 0.8)),url(./img/img3.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 50px; 
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.fourth-section h1{
+    color: #ffc506;
+    font-size: 70px;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.fourth-section h4{
+    color:  white;
+}
+
+.fourth-section h3{
+    color: #ffc506;
+    display: contents;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth-section li{
+    color: white;
+    font-size: 12px;
+}
+
+.fourth-section h6{
+    color: white;
+}
